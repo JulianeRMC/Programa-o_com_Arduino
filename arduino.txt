@@ -7,7 +7,7 @@ toda a parte do hardware, através da própria placa em si. Você pode fazer des
 simples, como controlar a lâmpada de sua casa, ou alguns mais complexos, como construir um
 braço biônico a partir do Arduino. Outro fato interessante é que ele pode ser conectado ao 
 computador por meio de uma porta USB e é de onde recebe a energia para funcionar, outra opção 
-para energisar o arduino é conectá-lo a uma bateria de 9V. Existem vários tipos de arduino, os 
+para energizar o arduino é conectá-lo a uma bateria de 9V. Existem vários tipos de arduino, os 
 mais conhecidos são o UNO e o MEGA. Mas talvez o fato mais interessante do arduino é o fato de 
 ele ser open-sourse(código livre), possibilitando a criação de várias versões de "arduino". O
 arduino é muito bom para quem está iniciando nas áreas da programação e eletrônica ou simplesmente
