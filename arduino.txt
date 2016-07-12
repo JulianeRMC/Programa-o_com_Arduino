@@ -12,3 +12,25 @@ mais conhecidos são o UNO e o MEGA. Mas talvez o fato mais interessante do ardu
 ele ser open-sourse(código livre), possibilitando a criação de várias versões de "arduino". O
 arduino é muito bom para quem está iniciando nas áreas da programação e eletrônica ou simplesmente
 para quem quer aprender.
+Vamos agora focar no propósito desde arquivo txt, que é explanar um pouco sobre a programação do arduino.
+Para criar programas e enviá-los para o arduino é necessário que você baixe a IDE totalmente gratuita no 
+site oficial do arduino, além disso é preciso ter um conhecimento em linguagem C. Existem vários livros
+e sites, principalmente em inglês, que trazem todas as informações que um principiante precisa saber 
+para poder programar no arduino. Existem diferenças entre a linguagem C normal e a usada no arduino; por
+exemplo: em C somente existe uma função principal e que é obrigatória em qualquer programa que você deseje
+fazer, a função main; já no C da versão do arduino existem duas, a setup( o programa roda uma vez) e a loop
+( o programa roda infinitas vezes, em loop). Vou trazer aqui o exemplo mais básico que tem de uma programação
+em arduino, o programa BLINK.
+
+    void setup()
+    { 
+        pinMode(13, OUTPUT);
+    }
+    
+    void loop()
+    {
+        digitalWrite(13, HIGH);
+        delay(1000);
+        digitalWrite(13,LOW);
+        delay(1000);
+    }
