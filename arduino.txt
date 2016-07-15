@@ -34,3 +34,7 @@ em arduino, o programa BLINK.
         digitalWrite(13,LOW);
         delay(1000);
     }
+Podemos aprender bastante com esse código. Primeiro há a declaração das funções que são indispensáveis na 
+programação do arduino: setup e loop. Elas são do tipo void o que significa que elas retornam nada, void 
+significa vazio; em seguida há a declaração dos parâmetros, que ficam entre parênteses, e nesse caso não
+há parâmetros.
