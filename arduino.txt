@@ -37,4 +37,5 @@ em arduino, o programa BLINK.
 Com esse código, apesar de ser simples, podemos aprender muitas coisas. Primeiro há a declaração das funções que
 são indispensáveis na programação do arduino: setup e loop. Elas são do tipo void o que significa que elas retornam
 nada, void significa vazio; em seguida há a declaração dos parâmetros, que ficam entre parênteses, e nesse caso não
-há parâmetros.
+há parâmetros. Dentro da função setup, que só roda uma vez, há o pinMode: há dois argumentos dentro do pinMode, o primeiro
+é referente ao pino digital escolhido e o segundo informa que ele é um pino de saída.    
